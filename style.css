@@ -286,3 +286,105 @@ section.about .container {
 section.about p {
     margin-bottom: 2rem;
 }
+
+/* ===================== SKILLS SECTION =====================*/
+
+section.skills .container {
+    width: 50%;
+}
+
+section.skills .skill {
+    margin-bottom: 1rem;
+}
+
+section.skills .head {
+    background: var(--color-primary);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--color-white);
+    padding: 1.6rem;
+    cursor: pointer;
+}
+
+section.skills .skill .head h4 {
+    color: var(--color-white);
+}
+
+section.skills .skill .head .left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+section.skills .skill .item {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+    padding: 1.5rem;
+    background: var(--color-light);
+    margin-bottom: 0.3rem;
+    transition: var(--transition);
+}
+
+section.skills .skill .item:hover {
+    background: var(--color-white);
+}
+
+section.skills .skill .progress-area {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+section.skills .item .progress-bar {
+    width: 100%;
+    height: 1rem;
+    background: var(--color-primary-light);
+}
+
+section.skills .skill .item .progress-bar .progress {
+    height: 100%;
+    width: 70%;
+    background: var(--color-primary);
+}
+
+/* FRONTEND SKILL */
+
+section.skills .skill .item:nth-child(2) .progress-bar .progress {
+    width: 60%;
+}
+
+section.skills .skill .item:nth-child(3) .progress-bar .progress {
+    width: 55%;
+}
+
+/* BACKEND SKILL */
+
+section.skills .skill:nth-child(2) .item:nth-child(1) .progress-bar .progress {
+    width: 60%;
+}
+
+section.skills .skill:nth-child(2) .item:nth-child(2) .progress-bar .progress {
+    width: 45%;
+}
+
+section.skills .skill:nth-child(2) .item:nth-child(3) .progress-bar .progress {
+    width: 60%;
+}
+
+/* DATABSES SKILL */
+
+section.skills .skill:nth-child(3) .item:nth-child(1) .progress-bar .progress {
+    width: 80%;
+}
+
+section.skills .skill:nth-child(3) .item:nth-child(2) .progress-bar .progress {
+    width: 70%;
+}
+
+section.skills .skill:nth-child(3) .item:nth-child(3) .progress-bar .progress {
+    width: 40%;
+}
