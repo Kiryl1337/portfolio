@@ -317,6 +317,16 @@ section.skills .skill .head .left {
     gap: 1rem;
 }
 
+/* Show/hide items */
+section.skills .skill .items {
+    display: none;
+}
+
+section.skills .container .skill .items.show-items {
+    transition: 2s;
+    display: block;
+}
+
 section.skills .skill .item {
     display: flex;
     flex-direction: column;
