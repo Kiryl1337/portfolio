@@ -398,3 +398,31 @@ section.skills .skill:nth-child(3) .item:nth-child(2) .progress-bar .progress {
 section.skills .skill:nth-child(3) .item:nth-child(3) .progress-bar .progress {
     width: 40%;
 }
+
+/* ===================== PROJECTS SECTION =====================*/
+
+section.recent-work .container h3 {
+    text-align: left;
+    margin: 3rem 0 1rem;
+    padding-bottom: 2rem;
+    width: 65%;
+}
+
+section.recent-work .projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
+
+section.recent-work .projects .project .action a{
+    color: var(--color-primary);
+}
+
+section.recent-work .projects .project .action a:hover{
+    text-decoration: underline;
+}
+
+section.recent-work .projects .project p{
+    margin: 1.5rem 0;
+}
+/* ===================== END OF PROJECTS SECTION =====================*/
