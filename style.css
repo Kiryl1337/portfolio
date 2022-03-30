@@ -426,3 +426,26 @@ section.recent-work .projects .project p{
     margin: 1.5rem 0;
 }
 /* ===================== END OF PROJECTS SECTION =====================*/
+
+/* ===================== LANGUAGES SECTION =====================*/
+section.languages .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+}
+
+section.languages .container h3 {
+   text-align: center;
+}
+
+section.languages .container a{
+    color: var(--color-primary);
+}
+
+section.languages .container a:hover{
+    text-decoration: underline;
+}
+
+/* ===================== END OF LANGUAGES SECTION =====================*/
