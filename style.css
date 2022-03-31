@@ -21,6 +21,15 @@
     list-style: none;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+    background: var(--color-primary-light);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--color-primary);
+}
+
 html {
     font-size: 15px;
     scroll-behavior: smooth;
@@ -113,6 +122,10 @@ nav {
     z-index: 2;
     position: fixed;
     border-bottom: 1px solid var(--color-light);
+}
+
+nav.show-box-shadow {
+    box-shadow: 0 0.6rem 1rem var(--color-primary-light);
 }
 
 nav .container {
